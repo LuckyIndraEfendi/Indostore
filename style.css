@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#3b5380, #1e2024, #3d5787);
+}
+
+#navbar-carousel {
+  margin-top: 15vh;
+}
+
+.dark-Mode {
+  position: relative;
+  left: -10%;
+}
+.dark-Mode label {
+  font-size: 0.9em;
+  color: #bdc8c9;
+  margin-left: 7px;
+}
+
+/* Content List */
+.l-img img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.v-games {
+  margin-top: 13vh;
+  font-size: 1.9vw;
+  font-weight: 400;
+}
+
+.tt-c {
+  font-size: 2vw;
+  font-weight: 400;
+  margin-bottom: 4vh;
+  color: #fff;
+}
+
+.logo-img {
+  position: relative;
+  top: 5%;
+  right: 2%;
+  width: 12%;
+}
+
+/* News and Promotion */
+.news-font {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.news-font-2 {
+  margin-top: -7%;
+  font-size: 0.75em;
+  margin-bottom: 0;
+}
+.kts {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+/* Bantuan */
+.bantuan h5 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.m-p {
+  width: 100%;
+}
+.m-p img {
+  width: 10%;
+  margin: 5px;
+}
+.m-p a {
+  text-decoration: none;
+}
+
+/* Footer */
+.bantuan .t-ftr {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fff;
+}
+
+.lst {
+  position: relative;
+  top: 3%;
+}
+
+.list-footer {
+  list-style: none;
+  margin-left: -6%;
+}
+.list-footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.brk,
+.kgMBGAjTmMAL li {
+  color: #fff;
+  font-size: 0.9em;
+}
+
+/* Footer 2 */
+.afapa {
+  font-size: 0.75em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 2%;
+}
+.afapa-2 {
+  margin-top: -0.9%;
+  font-size: 0.75em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.afapa-2 a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+.afapa-2 a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+/* End Footer 2 */
+
+/* Responsive Breakpoints */
+
+/* Responsive On Large Screen */
+@media screen and (max-width: 1400px) {
+  #seacrh-bX {
+    position: relative;
+    left: -6%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .lskaafa {
+    width: 100%;
+  }
+}
+
+/* Responsive In Tablet */
+@media screen and (max-width: 992px) {
+  #seacrh-bX {
+    position: relative;
+    left: 0;
+  }
+  #navbar-carousel {
+    margin-top: 10vh;
+  }
+  .dark-Mode {
+    position: relative;
+    left: 0;
+    margin: 5px;
+  }
+  #l-sa {
+    margin-top: 3vh;
+  }
+  .tt-c {
+    font-size: 1.6em;
+  }
+  .v-games {
+    font-size: 3vw;
+  }
+}
+
+/* Responsive In Smartphone */
+@media screen and (max-width: 768px) {
+  #ksa {
+    margin-top: 3vh;
+  }
+  .tt-c {
+    font-size: 3vw;
+  }
+  .v-games {
+    margin-top: 11vh;
+  }
+  .v-games {
+    font-size: 3vw;
+  }
+  .brk {
+    margin-top: 1vh;
+  }
+  .lskaafa {
+    width: 60%;
+  }
+  #kanfka {
+    margin-left: -15%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tt-c {
+    font-size: 5vw;
+  }
+  .v-games {
+    font-size: 5vw;
+  }
+  .k-2 {
+    margin-top: 5%;
+  }
+  .afapa {
+    font-size: 0.75em;
+  }
+}
