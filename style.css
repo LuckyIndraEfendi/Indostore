@@ -125,6 +125,10 @@ body {
 }
 /* End Footer 2 */
 
+/* ==== Created ClassList Navbar Toggle Baclground */
+.clr-nav {
+  background: #374c72;
+}
 /* Responsive Breakpoints */
 
 /* Responsive On Large Screen */
@@ -203,5 +207,14 @@ body {
   }
   .afapa {
     font-size: 0.75em;
+  }
+  .bac-clr .id-input {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bac-clr .id-input {
+    margin-left: 10px;
   }
 }

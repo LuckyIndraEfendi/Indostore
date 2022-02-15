@@ -1,5 +1,5 @@
 body {
-  background: #280031;
+  background: linear-gradient(#1e2024, #3b5380, #1e2024, #3d5787);
 }
 
 * {
@@ -603,5 +603,14 @@ body {
   }
   .dropdown:hover .dropdown-content {
     display: none;
+  }
+  .bac-clr .id-input {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bac-clr .id-input {
+    margin-left: 10px;
   }
 }

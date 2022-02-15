@@ -677,4 +677,7 @@ body {
   .dropdown:hover .dropdown-content {
     display: none;
   }
+  .bac-clr .id-input {
+    margin-left: 10vh;
+  }
 }
